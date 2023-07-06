@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav__item {
+  font-size: 18px;
+  transition: 0.3s ease-in;
+  &:hover {
+    color: #ffdf00;
+  }
+}
+.nav__item_active {
+  color: #ffdf00;
+}

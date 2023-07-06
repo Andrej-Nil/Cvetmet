@@ -1,0 +1,33 @@
+.header {
+  background: #000;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__contact-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__contact {
+  font-weight: 300;
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header__phone {
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: #fe1e00;
+  }
+}

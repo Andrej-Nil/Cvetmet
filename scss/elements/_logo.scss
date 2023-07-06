@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo__img {
+  max-width: 70px;
+  max-height: 70px;
+}
+
+.logo__text {
+  font-size: 30px;
+  color: #fff;
+}
