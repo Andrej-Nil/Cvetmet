@@ -6,6 +6,11 @@
   padding: 15px 20px;
   font-size: 18px;
   font-weight: 500;
-  background: hsl(7, 100%, 50%);
+  background: #ff1e00;
   color: #fff;
+  transition: background 0.3s ease-in-out;
+
+  &:hover {
+    background: #af1400;
+  }
 }

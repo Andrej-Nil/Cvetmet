@@ -1,4 +1,8 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: #000;
   min-height: 70px;
   display: flex;
@@ -21,4 +25,15 @@
   text-decoration: underline;
   color: #fff;
   cursor: pointer;
+  &:hover {
+    color: #ffdf00;
+    text-decoration: none;
+  }
+}
+
+.header__connection {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
 }

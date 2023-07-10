@@ -1,0 +1,33 @@
+.main-scrin {
+  width: 100%;
+  background: #000 url(../../image/img/promo.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.main-scrin__content {
+  padding: 30px;
+  width: 100%;
+  background: #000000;
+}
+
+.main-scrin__title {
+  font-size: 80px;
+  color: #ffdf00;
+  font-weight: normal;
+}
+
+.main-scrin__subtitle {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.main-scrin__advantages {
+  width: 100%;
+  background: #000000;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24">
+                            <defs>
+                                <clipPath id="qvita">
+                                    <path fill="#fff" d="M1.496 12.703L14.423.627l8.425 9.018L9.922 21.722z"></path>
+                                </clipPath>
+                                <clipPath id="qvitb">
+                                    <path fill="#fff" d="M.481 11.784l17.013-4.847 3.382 11.869-17.013 4.848z"></path>
+                                </clipPath>
+                            </defs>
+                            <g>
+                                <g>
+                                    <g>
+                                        <g>
+                                            <path d="M1.496 12.703L14.423.627l8.425 9.018L9.922 21.722z"></path>
+                                            <path fill="none" stroke="#ffde00" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="4" d="M1.496 12.703v0L14.423.627v0l8.425 9.018v0L9.922 21.722v0z" clip-path="url(&quot;#qvita&quot;)"></path>
+                                        </g>
+                                        <g>
+                                            <path d="M.481 11.784l17.013-4.847 3.382 11.869-17.013 4.848z"></path>
+                                            <path fill="none" stroke="#ffde00" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="4" d="M.481 11.784v0l17.013-4.847v0l3.382 11.869v0L3.863 23.654v0z" clip-path="url(&quot;#qvitb&quot;)"></path>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <text dominant-baseline="text-before-edge" style="text-transform:uppercase;transform:translate(4.5px, 14px) rotate(-17deg)" fill="#ffde00" font-family="'Roboto','Roboto-Medium'" font-size="6">
+                                                    <tspan style="font-kerning:normal">руб</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25">
+                            <defs>
+                                <clipPath id="lqqwa">
+                                    <path fill="#fff" d="M3 18V0h14v18zM9.893 2.058a4.471 4.471 0 0 0-4.456 4.848V16h8.938V6.187h-.024a4.472 4.472 0 0 0-4.458-4.13z"></path>
+                                </clipPath>
+                                <clipPath id="lqqwb">
+                                    <path fill="#fff" d="M0 25V6h19v19zm2.5-9.207a7.207 7.207 0 1 0 14.414 0 7.207 7.207 0 0 0-14.414 0z"></path>
+                                </clipPath>
+                            </defs>
+                            <g>
+                                <g>
+                                    <g>
+                                        <g>
+                                            <path d="M9.893 2.058a4.472 4.472 0 0 1 4.458 4.13h.024V16H5.437V6.906a4.471 4.471 0 0 1 4.456-4.848z"></path>
+                                            <path fill="none" stroke="#ffde00" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="4" d="M9.893 2.058a4.472 4.472 0 0 1 4.458 4.13h.024V16H5.437V6.906a4.471 4.471 0 0 1 4.456-4.848z" clip-path="url(&quot;#lqqwa&quot;)"></path>
+                                        </g>
+                                        <g>
+                                            <path d="M9.707 8.586a7.207 7.207 0 1 1 0 14.414 7.207 7.207 0 0 1 0-14.414z"></path>
+                                            <path fill="none" stroke="#ffde00" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="4" d="M9.707 8.586a7.207 7.207 0 1 1 0 14.414 7.207 7.207 0 0 1 0-14.414z" clip-path="url(&quot;#lqqwb&quot;)"></path>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <text dominant-baseline="text-before-edge" style="line-height: 10px;" fill="#ffde00" font-family="'Roboto','Roboto-Medium'" font-size="9" transform="translate(6 10)">
+                                                    <tspan style="font-kerning:normal">кг</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
