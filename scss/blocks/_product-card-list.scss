@@ -1,0 +1,9 @@
+.product-card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+  gap: 20px;
+}
+
+.product-card__img {
+  width: 100%;
+}

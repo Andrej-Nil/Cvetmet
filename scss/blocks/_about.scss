@@ -1,0 +1,42 @@
+.about {
+  margin: 130px 0 60px 0;
+}
+
+.about__content {
+  display: flex;
+}
+
+.about__coll {
+  width: 50%;
+  &_left {
+    position: relative;
+    z-index: 1;
+    background: #f3f3f3;
+  }
+
+  &_right {
+    position: relative;
+  }
+}
+
+.about__img {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  object-fit: cover;
+  object-position: center;
+  //max-width: 1110px;
+  width: 1110px;
+  height: 426px;
+  //left: 0;
+  transform: translate(0, -50%);
+}
+
+.about__desc {
+  padding: 60px 75px 65px 0;
+  max-width: 725px;
+  margin-left: auto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
