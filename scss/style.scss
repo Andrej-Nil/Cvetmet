@@ -7,6 +7,7 @@
 @import "./elements/logo";
 @import "./elements/phone";
 @import "./elements/input";
+@import "./elements/page-title";
 
 @import "./blocks/header";
 @import "./blocks/nav";
@@ -19,5 +20,10 @@
 @import "./blocks/callback";
 @import "./blocks/form";
 @import "./blocks/company-desc";
+@import "./blocks/breadcrumbs";
+@import "./blocks/company-contact";
+@import "./blocks/contact";
 
 @import "./blocks/footer";
+
+@import "./impotant";

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/style.min.css" rel="stylesheet">
+  <title>ЦветМет</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__inner container">
+      <a href="/" class="logo">
+        <img class="logo__img" src="./image/logo.svg" alt="logo">
+        <span class="logo__text">НПО «ЦветМет»</span>
+      </a>
+      <nav class="nav">
+        <a href="/" class="nav__item">Главная</a>
+        <a href="/category.html" class="nav__item">Приём лома</a>
+        <a href="/about.html" class="nav__item">О компании</a>
+        <a href="/contact.html" class="nav__item nav__item_active">Контакты</a>
+      </nav>
+      <div class="header__contact-list">
+
+        <span class="header__contact ">Заказать звонок</span>
+        <div class="header__connection">
+          <a href="tel:+73433182404" class="header__phone phone">+7 (343) 318-24-04</a>
+          <a href="mailto:info@cvetmet.biz" class="header__contact">info@cvetmet.biz</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="breadcrumbs container">
+    <a href="/" class="breadcrumbs__link">Главная</a>
+    <span class="breadcrumbs__slash">/</span>
+    <a href="/category.html" class="breadcrumbs__link breadcrumbs__link_active">Контакты</a>
+  </div>
+
+  <h1 class="page-title container">Контакты</h1>
+  <main class="main">
+
+    <div class="content-page mb-0">
+      <div class="contact container">
+        <div class="contact__wrap">
+          <div class="contact__group">
+            <p class="contact__title">Офис</p>
+
+            <div class="contact-item">
+              <span class="contact-item__label">Адрес:</span>
+              <span class="contact-item__value">620075, Россия, Свердловская область, Екатеринбург, Малышева улица,
+                51</span>
+
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-item__label">Телефон:</span>
+              <span class="contact-item__value">
+                <a class="contact-item__link" href="tel:+73433182404">
+                  +7 (343) 318-24-04
+                </a>
+              </span>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-item__label">Электронная почта:</span>
+              <span class="contact-item__value">
+                <a href="mailto:info@cvetmet.biz">
+                  info@cvetmet.biz
+                </a>
+              </span>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-item__label mb-10">Режим работы:</span>
+              <ul class="work-time">
+                <li class="work-time__item">Пн - с 08:00 до 18:00</li>
+                <li class="work-time__item">Вт - с 08:00 до 18:00</li>
+                <li class="work-time__item">Ср - с 08:00 до 18:00</li>
+                <li class="work-time__item">Чт - с 08:00 до 18:00</li>
+                <li class="work-time__item">Пт - с 08:00 до 17:00</li>
+                <li class="work-time__item">Сб - выходной</li>
+                <li class="work-time__iteme">Вс - выходной</li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div class="contact__group">
+            <p class="contact__title">Склад</p>
+
+            <div class="contact-item">
+              <span class="contact-item__label">Адрес:</span>
+              <span class="contact-item__value">620017, Россия, Свердловская область, Екатеринбург, Орджоникидзевский
+                район, микрорайон Эльмаш, Шефская улица, 3Г</span>
+
+            </div>
+
+
+            <div class="contact-item">
+              <span class="contact-item__label mb-10">Режим работы:</span>
+              <ul class="work-time">
+                <li class="work-time__item">Пн - с 08:00 до 20:00</li>
+                <li class="work-time__item">Вт - с 08:00 до 20:00</li>
+                <li class="work-time__item">Ср - с 08:00 до 20:00</li>
+                <li class="work-time__item">Чт - с 08:00 до 20:00</li>
+                <li class="work-time__item">Пт - с 08:00 до 20:00</li>
+                <li class="work-time__item">Сб - с 08:00 до 20:00</li>
+                <li class="work-time__item">Вс - с 08:00 до 20:00</li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+      <div class="map__wrap">
+
+      </div>
+    </div>
+
+
+
+    <div class="callback">
+      <div class="callback__inner container">
+        <div class="callback__text">
+          <p class="callback__title">Оставьте заявку</p>
+          <p class="callback__subtitle">
+            и сдайте лом по выгодной цене!
+          </p>
+        </div>
+
+        <form action="./" method="POST" class="callback__form form">
+          <input class="input" type="text" name="name" placeholder="Ваше имя">
+          <input class="input" type="tel" id="phone" name="phone" placeholder="Ваш номер телефона"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          <button type="submit" class="form__btn btn btn_red">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner container">
+      <div class="footer__copyrite">2019-2023 ©НПО "ЦветМет"</div>
+
+      <div class="footer-address">
+        <p class="footer-address__text">
+          Свердловская область, Екатеринбург, Малышева улица, 51
+        </p>
+        <a href="/" class="footer-address__link">
+          Посмотреть на карте
+        </a>
+      </div>
+
+      <button class="footer__btn btn">
+        Сдать лом выгодно
+      </button>
+
+      <a href="tel:+73433182404" class="footer__phone phone">+7 (343) 318-24-04</a>
+    </div>
+
+    <div href="/" class="container">
+      <a href="" class="footer__offer">
+        Информация на сайте не является публичной офертой
+      </a>
+
+    </div>
+
+  </footer>
+
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

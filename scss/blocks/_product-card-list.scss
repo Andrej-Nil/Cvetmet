@@ -1,7 +1,8 @@
 .product-card-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+  grid-template-columns: repeat(auto-fit, 274px);
   gap: 20px;
+  margin-bottom: 60px;
 }
 
 .product-card__img {

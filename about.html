@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/style.min.css" rel="stylesheet">
+  <title>ЦветМет</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__inner container">
+      <a href="/" class="logo">
+        <img class="logo__img" src="./image/logo.svg" alt="logo">
+        <span class="logo__text">НПО «ЦветМет»</span>
+      </a>
+      <nav class="nav">
+        <a href="/" class="nav__item">Главная</a>
+        <a href="/category.html" class="nav__item">Приём лома</a>
+        <a href="/about.html" class="nav__item nav__item_active">О компании</a>
+        <a href="/contact.html" class="nav__item">Контакты</a>
+      </nav>
+      <div class="header__contact-list">
+
+        <span class="header__contact ">Заказать звонок</span>
+        <div class="header__connection">
+          <a href="tel:+73433182404" class="header__phone phone">+7 (343) 318-24-04</a>
+          <a href="mailto:info@cvetmet.biz" class="header__contact">info@cvetmet.biz</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="breadcrumbs container">
+    <a href="/" class="breadcrumbs__link">Главная</a>
+    <span class="breadcrumbs__slash">/</span>
+    <a href="/category.html" class="breadcrumbs__link breadcrumbs__link_active">О компании</a>
+  </div>
+
+  <h1 class="page-title container">О компании</h1>
+
+  <main class="main">
+
+    <div class="content-page">
+
+      <div class="about">
+        <div class="about__content">
+
+
+          <div class="about__coll about__coll_left">
+            <div class="about__desc">
+              <p class="about__para">
+                Компания НПО "ЦветМет" – состоит в холдинге предприятий- производителей металлопроката, подразделение
+                открыто для обеспечения вторичным сырьём (металлоломом) предприятия холдинга.
+              </p>
+              <p class="about__para">
+                Осуществляет закупку лома и его переработку нержавеющих, чёрных, и цветных металлов у компаний, а также
+                частных лиц. Для Вас предусмотрен расчет наличными, безнал (для юр. лиц), а также оплата на банковскую
+                карту.
+                Цены, несомненно, порадуют Вас! Работать с нами – это надёжно и выгодно.
+              </p>
+            </div>
+          </div>
+          <div class="about__coll about__coll_right">
+            <img src="./image/img/about_main.jpg" class="about__img" alt="">
+          </div>
+        </div>
+        <div class="about__callback">
+          <div class="callback">
+            <div class="callback__inner container">
+              <div class="callback__text">
+                <p class="callback__title">Оставьте заявку</p>
+                <p class="callback__subtitle">
+                  и сдайте лом по выгодной цене!
+                </p>
+
+
+
+              </div>
+
+              <form action="./" method="POST" class="callback__form form">
+                <input class="input" type="text" name="name" placeholder="Ваше имя">
+                <input class="input" type="tel" id="phone" name="phone" placeholder="Ваш номер телефона"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <button type="submit" class="form__btn btn btn_red">Отправить заявку</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="company-desc container">
+        <div class="company-desc__images">
+
+          <img src="./image/img/about_main2.jpg" alt="" class="company-desc__pic-one">
+          <img src="./image/img/about_main3.jpg" alt="" class="company-desc__pic-two">
+        </div>
+        <div class="company-desc__text">
+          <div class="company-contact">
+            <p class="company-contact__title">Контакты</p>
+
+            <div class="company-contact__item">
+              <span class="company-contact__label">Телефон</span>
+              <span class="company-contact__value">
+                <a href="tel:+73433182404" class="company-contact__link">
+                  +7 (343) 318-24-04
+                </a>
+
+              </span>
+            </div>
+
+            <div class="company-contact__item">
+              <span class="company-contact__label">Электронная почта</span>
+              <span class="company-contact__value">
+                <a href="mailto:info@cvetmet.biz" class="company-contact__link">
+                  info@cvetmet.biz
+                </a>
+              </span>
+            </div>
+
+            <div class="company-contact__item">
+              <span class="company-contact__label">Адрес</span>
+              <span class="company-contact__value">
+                620075, Россия, Свердловская область, Екатеринбург, Малышева улица, 51</span>
+            </div>
+
+            <div class="company-contact__item">
+              <span class="company-contact__label">Склад</span>
+              <span class="company-contact__value">620017, Россия, Свердловская область, Екатеринбург, Орджоникидзевский
+                район, микрорайон Эльмаш, Шефская улица, 3Г</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner container">
+      <div class="footer__copyrite">2019-2023 ©НПО "ЦветМет"</div>
+
+      <div class="footer-address">
+        <p class="footer-address__text">
+          Свердловская область, Екатеринбург, Малышева улица, 51
+        </p>
+        <a href="/" class="footer-address__link">
+          Посмотреть на карте
+        </a>
+      </div>
+
+      <button class="footer__btn btn">
+        Сдать лом выгодно
+      </button>
+
+      <a href="tel:+73433182404" class="footer__phone phone">+7 (343) 318-24-04</a>
+    </div>
+
+    <div href="/" class="container">
+      <a href="" class="footer__offer">
+        Информация на сайте не является публичной офертой
+      </a>
+
+    </div>
+
+  </footer>
+
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

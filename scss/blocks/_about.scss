@@ -11,7 +11,7 @@
   &_left {
     position: relative;
     z-index: 1;
-    background: #f3f3f3;
+    background: #fdfdfd;
   }
 
   &_right {
@@ -39,4 +39,11 @@
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
+}
+
+.about__para {
+  margin-bottom: 15px;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
